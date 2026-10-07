@@ -1,9 +1,9 @@
 # Pokémon Stadium Lite
 
 Mini-aplicación de escritorio en Java Swing que simula un combate por turnos entre dos Pokémon obtenidos en tiempo real desde [PokeAPI](https://pokeapi.co/).
-Proyecto de **Desarrollo de Software III** — Tecnología en Sistemas.
+Proyecto de **Desarrollo de Software III**
 
-**Autor:** _Tu nombre_
+**Autor:** Kevin Castillo Perez
 
 ## Tecnologías
 Java 11+, Swing, `java.net.http.HttpClient`, `org.json`, Maven, PokeAPI.
@@ -16,14 +16,14 @@ Java 11+, Swing, `java.net.http.HttpClient`, `org.json`, Maven, PokeAPI.
 ## Instrucciones de ejecución
 
 ### Opción A — IntelliJ IDEA
-1. Clonar el repositorio: `git clone <URL_DEL_REPOSITORIO>`
+1. Clonar el repositorio: `https://github.com/TrxDP/pokemon-stadium-lite.git`
 2. En IntelliJ: **File → Open** y seleccionar el archivo `pom.xml` (Open as Project).
 3. Esperar a que Maven descargue la dependencia `org.json` (o pulsar **Reload All Maven Projects**).
 4. Abrir `src/main/java/com/pokemonstadium/Main.java` y ejecutar el método `main` (▶).
 
 ### Opción B — Terminal
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/TrxDP/pokemon-stadium-lite.git
 cd pokemon-stadium-lite
 mvn compile exec:java
 ```
